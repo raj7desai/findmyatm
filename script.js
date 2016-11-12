@@ -3,11 +3,11 @@ var service;
 var infowindow;
 
 function initMap() {
-  // var pyrmont = new google.maps.LatLng(-33.8665433,151.1956316);
+  var pyrmont = new google.maps.LatLng(19.063741, 72.831356);
 
   map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: -34.397, lng: 150.644},
-		zoom: 8
+      center: {lat: 19.063741, lng: 72.831356},
+		zoom: 13
     });
 
   var request = {
